@@ -16,7 +16,7 @@ Start with your first real slice of functionality.
 
 ## Your features
 
-- [ ] 1. Build the branded Napitalai ICTC landing page, replacing the Next.js starter content and using the supplied logo and colour guidance.
+- [x] 1. Build the branded Napitalai ICTC landing page, replacing the Next.js starter content and using the supplied logo and colour guidance.
 - [ ] 2. Add public information pages for ICTC services, consultancy, and training, including a public training catalogue.
 - [ ] 3. Add contact and enquiry forms that deliver submitted questions by email.
 - [ ] 4. Add authentication and company-admin, organisation-admin, and learner roles, including company-admin-controlled privilege grants.
