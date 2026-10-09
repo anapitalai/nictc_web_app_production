@@ -1,3 +1,0 @@
-White
-Navy
-Deep Teal
