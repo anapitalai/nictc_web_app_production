@@ -1,9 +1,15 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This is the Napitalai Information and Communication Training and consultantcy web app bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
-First, run the development server:
+Bootstrap  the app
 
+```bash 
+npx create-next-app@latest nictc-app
+cd nictc-app
+git init
+```
+First, run the development server:
 ```bash
 npm run dev
 # or
@@ -31,6 +37,31 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+I will be deploying this in my own webserver.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Check out the app [NICTC https://www.nictc.com.pg]
+
+
+## Installing AI Blueprint by Brad Traversy
+Github - [https://github.com/aiblueprinthq/ai-blueprint]
+youtube - [https://www.youtube.com/watch?v=L4g6GGLzAyo&t=29s]
+
+# Bootstrap an app
+npx create-next-app@latest my-app
+cd my-app
+git init
+
+Install blue print
+# npm
+npx create-ai-blueprint@latest
+
+# pnpm
+pnpm dlx create-ai-blueprint@latest
+
+
+## AI blueprint workflow
+1. /onboard
+2. /overview
+3. /prototype
+4. /feature
+5. complete

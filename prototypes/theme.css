@@ -1,0 +1,91 @@
+/* Shared visual tokens for the Napitalai ICTC pre-build prototypes. */
+:root {
+  color-scheme: light;
+
+  /* Brand surfaces */
+  --bg: #f7f9f8;
+  --surface: #ffffff;
+  --surface-soft: #edf4f3;
+  --surface-strong: #0b1c38;
+  --border: #d9e3e2;
+
+  /* Brand and text */
+  --navy: #0b1c38;
+  --teal: #155765;
+  --teal-deep: #10434e;
+  --text: #15263b;
+  --muted: #5f6f7b;
+  --faint: #85939b;
+  --accent: #d8a73a;
+  --accent-ink: #17233a;
+  --success: #26745b;
+  --focus: #d8a73a;
+
+  /* Type */
+  --font-sans: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.375rem;
+  --text-2xl: 1.875rem;
+  --text-3xl: clamp(2.75rem, 5.5vw, 4.75rem);
+  --text-mobile-display: clamp(2.75rem, 13vw, 4.25rem);
+  --text-display: clamp(3.5rem, 8vw, 7.5rem);
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+  --weight-heavy: 800;
+  --leading-tight: 1.04;
+  --leading-normal: 1.65;
+  --leading-label: 1.3;
+  --leading-button: 1.2;
+  --leading-heading: 1.15;
+  --tracking-tight: -0.055em;
+  --tracking-wide: 0.14em;
+
+  /* Space and layout scale */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+  --content-width: 76rem;
+  --header-height: 5.5rem;
+  --header-logo-width: 13.5rem;
+  --header-logo-width-compact: 11rem;
+  --hero-art-size: 31rem;
+  --hero-orbit-inset: 2.5rem;
+  --hero-node-offset: 2rem;
+  --map-card-width: 27rem;
+  --map-scene-height: 17rem;
+  --map-contour-width: 13rem;
+  --map-contour-height: 8rem;
+  --map-grid-size-a: 4rem;
+  --map-grid-size-b: 5rem;
+  --service-card-height: 14rem;
+  --hero-copy-width: 36rem;
+  --section-heading-width: 40rem;
+  --training-copy-width: 39rem;
+  --hero-art-compact-size: 26rem;
+  --hero-art-mobile-size: 24rem;
+
+  /* Components */
+  --radius-sm: 0.5rem;
+  --radius-md: 1rem;
+  --radius-lg: 1.5rem;
+  --radius-pill: 999px;
+  --line: 1px;
+  --shadow-soft: 0 1.5rem 4rem rgb(11 28 56 / 10%);
+  --shadow-card: 0 0.5rem 2rem rgb(11 28 56 / 8%);
+  --transition: 180ms ease;
+}
