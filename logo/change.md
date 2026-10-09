@@ -1,0 +1,1 @@
+Change the #napitalai-icon.svg, it should have AN and make the letters cursive, use Eash New Britain flag colors.

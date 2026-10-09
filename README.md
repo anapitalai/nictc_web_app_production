@@ -67,3 +67,5 @@ pnpm dlx create-ai-blueprint@latest
 3. /prototype
 4. /feature
 5. complete
+
+The /feature skill updates the @contect/current-feature.md
