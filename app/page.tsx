@@ -124,9 +124,10 @@ export default function Home() {
             <span className="text-base font-extrabold tracking-tight text-navy sm:text-lg">Napitalai ICTC</span>
           </a>
           <nav className="flex w-full flex-wrap items-center gap-x-6 gap-y-3 text-sm font-semibold text-muted lg:w-auto" aria-label="Main navigation">
-            <a className="transition-colors hover:text-teal" href="#services">What we do</a>
-            <a className="transition-colors hover:text-teal" href="#training">Training</a>
-            <a className="rounded-full bg-teal px-5 py-3 text-white transition-colors hover:bg-teal-deep" href="#training">
+            <a className="transition-colors hover:text-teal" href="/services">Services</a>
+            <a className="transition-colors hover:text-teal" href="/consultancy">Consultancy</a>
+            <a className="transition-colors hover:text-teal" href="/training">Training</a>
+            <a className="rounded-full bg-teal px-5 py-3 text-white transition-colors hover:bg-teal-deep" href="/training">
               Explore training <span aria-hidden="true">↗</span>
             </a>
           </nav>
@@ -147,10 +148,10 @@ export default function Home() {
                 Practical ICT training and digital expertise to help people and organisations move forward with confidence.
               </p>
               <div className="flex flex-wrap items-center gap-3">
-                <a className="inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-teal px-6 py-3 text-sm font-bold text-white transition-colors hover:bg-teal-deep" href="#training">
+                <a className="inline-flex min-h-12 items-center justify-center gap-2 rounded-full bg-teal px-6 py-3 text-sm font-bold text-white transition-colors hover:bg-teal-deep" href="/training">
                   Explore our training <span aria-hidden="true">→</span>
                 </a>
-                <a className="inline-flex min-h-12 items-center justify-center rounded-full border border-border bg-surface px-6 py-3 text-sm font-bold text-navy transition-colors hover:border-teal hover:bg-surface-soft" href="#services">
+                <a className="inline-flex min-h-12 items-center justify-center rounded-full border border-border bg-surface px-6 py-3 text-sm font-bold text-navy transition-colors hover:border-teal hover:bg-surface-soft" href="/services">
                   See how we help
                 </a>
               </div>
@@ -201,7 +202,7 @@ export default function Home() {
                 Explore flexible, self-paced training designed to help you build skills and put them into practice.
               </p>
             </div>
-            <a className="inline-flex min-h-12 shrink-0 items-center justify-center gap-2 rounded-full bg-accent px-6 py-3 text-sm font-bold text-navy transition-colors hover:bg-surface" href="#services">
+            <a className="inline-flex min-h-12 shrink-0 items-center justify-center gap-2 rounded-full bg-accent px-6 py-3 text-sm font-bold text-navy transition-colors hover:bg-surface" href="/services">
               See how we help <span aria-hidden="true">→</span>
             </a>
           </div>
@@ -213,8 +214,9 @@ export default function Home() {
           <p className="m-0">Napitalai ICTC · Information, communication technology &amp; training consultancy</p>
           <nav className="flex flex-wrap gap-6" aria-label="Footer navigation">
             <a className="transition-colors hover:text-accent" href="#home">Home</a>
-            <a className="transition-colors hover:text-accent" href="#services">Services</a>
-            <a className="transition-colors hover:text-accent" href="#training">Training</a>
+            <a className="transition-colors hover:text-accent" href="/services">Services</a>
+            <a className="transition-colors hover:text-accent" href="/consultancy">Consultancy</a>
+            <a className="transition-colors hover:text-accent" href="/training">Training</a>
           </nav>
         </div>
       </footer>
